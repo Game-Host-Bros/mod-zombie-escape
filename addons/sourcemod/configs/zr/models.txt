@@ -26,37 +26,10 @@
 
 "models"
 {
-    "zh_charple001"
+    "gozombie"
     {
-        "name"      "zh_charple001"
-        "path"      "models/player/zh/"
-        "team"      "zombies"
-        "access"    "public"
-        "group"     ""
-    }
-    
-    "zh_zombie003"
-    {
-        "name"      "zh_zombie003"
-        "path"      "models/player/zh/"
-        "team"      "zombies"
-        "access"    "public"
-        "group"     ""
-    }
-    
-    "zh_corpse002"
-    {
-        "name"      "zh_corpse002"
-        "path"      "models/player/zh/"
-        "team"      "zombies"
-        "access"    "public"
-        "group"     ""
-    }
-    
-    "t_guerilla"
-    {
-        "name"      "t_guerilla"
-        "path"      "models/player/ics/hellknight_red/"
+        "name"      "gozombie"
+        "path"      "models/player/kuristaja/zombies/gozombie/"
         "team"      "zombies"
         "access"    "public"
         "group"     ""

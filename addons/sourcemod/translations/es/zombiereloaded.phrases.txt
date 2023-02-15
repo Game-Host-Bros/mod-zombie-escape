@@ -75,12 +75,7 @@
 	{
 		"es"		"Esta funcion requiere que tu seas humano."
 	}
-
-	"Must be in buyzone"
-	{
-		"es"		"This feature requires that you are in a buyzone." // TODO: Translate
-	}
-
+	
 	"Increase by"
 	{
 		"es"		"Aumentado en {1}"
@@ -382,11 +377,6 @@
 		"es"		"El ultimo zombi a dejado el juego, y te ha pasado la infeccion a ti. (luego se lo agradeces xD)"
 	}
 
-	"Mother zombie infect cycle reset"
-	{
-		"es"		"The mother zombie infection cycle has been reset." // TODO: Translate
-	}
-
 	// Center Text
 
 	"Infect countdown"
@@ -418,19 +408,9 @@
 		"es"		"El jugador @green{1} @defaultha sido infectado con exito."
 	}
 
-	"Infect command infect successful public"
-	{
-		"es"		"@lgreen{1}@default has infected @green{2}@default." // TODO: Translate
-	}
-
 	"Infect command infect mother successful"
 	{
 		"es"		"El jugador @green{1} @defaultha sido infectado con exito como el zombi madre."
-	}
-
-	"Infect command infect mother successful public"
-	{
-		"es"		"@lgreen{1}@default has infected @green{2}@default as the mother zombie." // TODO: Translate
 	}
 
 	"Infect command infect unsuccessful"
@@ -441,11 +421,6 @@
 	"Infect command human successful"
 	{
 		"es"		"El jugador @green{1} @defaultha vuelto a ser humano con exito."
-	}
-
-	"Infect command human successful public"
-	{
-		"es"		"@lgreen{1}@default has brought back @green{2}@default as a human." // TODO: Translate
 	}
 
 	"Infect command human unsuccessful"
@@ -598,9 +573,14 @@
 		"es"		"solo se puede llevar {1} granada(s) de este tipo."
 	}
 
-	"Weapons zmarket not enough money"
+	"Weapons zmarket auto-rebuy toggle on"
 	{
-		"es"		"You have insufficient funds." // TODO: Translate
+		"es"		"Auto-recompra ha sido activado, su preseleccion se obtienen automaticamente cada vez que aparezcas."
+	}
+
+	"Weapons zmarket auto-rebuy toggle off"
+	{
+		"es"		"Auto-recompra ha sido desactivada."
 	}
 
 	"Weapons zmarket updated loadout"
@@ -684,14 +664,19 @@
 		"es"		"Guardar configuracion actual"
 	}
 
-	"Weapons menu zmarket main edit loadout"
+	"Weapons menu zmarket main view loadout"
 	{
-		"es"		"Edit Saved Setup" // TODO: Translate
+		"es"		"Ver configuracion actual"
 	}
 
 	"Weapons menu zmarket main rebuy"
 	{
 		"es"		"Comprar configuracion actual"
+	}
+
+	"Weapons menu zmarket main auto-rebuy"
+	{
+		"es"		"Auto-Recompra: {1}"
 	}
 
 	"Weapons menu zmarket main weapons list"
@@ -702,7 +687,6 @@
 	"Weapons menu zmarket loadout title"
 	{
 		"es"		"ZMarket\nMi configuracion actual:\nSeleccione la ranura de armas para borrar.\nNota: Recompra se refiere a estas armas."
-		//"es"		"ZMarket\nMy Current Setup:\nSelect weapon slot to modify.\nNote: Rebuy refers to these weapons.\nYou will spawn with these weapons." // TODO: Translate
 	}
 
 	"Weapons menu zmarket loadout primary"
@@ -715,15 +699,29 @@
 		"es"		"Secundaria: {1}"
 	}
 
-	"Weapons menu zmarket loadout default"
+	"Weapons menu zmarket loadout melee"
 	{
-		"#format"	"{1:s}"
-		"es"		"Default ({1})" // TODO: Translate
+		"es"		"Melee: {1}"
 	}
 
-	"Weapons menu zmarket loadout weapons title"
+	"Weapons menu zmarket loadout projectile"
 	{
-		"es"		"ZMarket\nSelect Weapon Loadout:" // TODO: Translate
+		"es"		"Projectil: {1}"
+	}
+
+	"Weapons menu zmarket loadout explosive"
+	{
+		"es"		"Explosivo: {1}"
+	}
+
+	"Weapons menu zmarket loadout nvgs"
+	{
+		"es"		"Vision Nocturna: {1}"
+	}
+
+	"Weapons menu zmarket loadout empty"
+	{
+		"es"		"(Ninguno)"
 	}
 
 	"Weapons menu zmarket types title"
@@ -970,11 +968,6 @@
 	"ZSpawn command force successful"
 	{
 		"es"		"El jugador {1} ha sido resucitado correctamente."
-	}
-
-	"ZSpawn command force successful public"
-	{
-		"es"		"@lgreen{1}@default has spawned @green{2}@default as a @lgreen{3}@default." // TODO: Translate
 	}
 
 	"ZSpawn command force unsuccessful"

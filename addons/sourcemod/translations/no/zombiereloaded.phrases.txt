@@ -74,12 +74,7 @@
 	{
 		"no"		"Du må være menneske for å kunne bruke denne funksjonen."
 	}
-
-	"Must be in buyzone"
-	{
-		"no"		"This feature requires that you are in a buyzone." // TODO: Translate
-	}
-
+	
 	"Increase by"
 	{
 		"no"		"Økning med {1}"
@@ -381,11 +376,6 @@
 		"no"		"Den siste zombien har forlatt spillet. Du er blitt valgt som erstatning."
 	}
 
-	"Mother zombie infect cycle reset"
-	{
-		"no"		"The mother zombie infection cycle has been reset." // TODO: Translate
-	}
-
 	// Center Text
 
 	"Infect countdown"
@@ -417,19 +407,9 @@
 		"no"		"@green{1}@default ble vellykket infisert."
 	}
 
-	"Infect command infect successful public"
-	{
-		"no"		"@lgreen{1}@default has infected @green{2}@default." // TODO: Translate
-	}
-
 	"Infect command infect mother successful"
 	{
 		"no"		"@green{1}@default ble vellykket infisert som moderzombie."
-	}
-
-	"Infect command infect mother successful public"
-	{
-		"no"		"@lgreen{1}@default has infected @green{2}@default as the mother zombie." // TODO: Translate
 	}
 
 	"Infect command infect unsuccessful"
@@ -440,11 +420,6 @@
 	"Infect command human successful"
 	{
 		"no"		"@green{1}@default ble vellykket gjort om til et menneske."
-	}
-
-	"Infect command human successful public"
-	{
-		"no"		"@lgreen{1}@default has brought back @green{2}@default as a human." // TODO: Translate
 	}
 
 	"Infect command human unsuccessful"
@@ -597,9 +572,14 @@
 		"no"		"Du kan bare holde {1} granat(er) av denne typen."
 	}
 
-	"Weapons zmarket not enough money"
+	"Weapons zmarket auto-rebuy toggle on"
 	{
-		"no"		"You have insufficient funds." // TODO: Translate
+		"no"		"Autokjøp er aktivert, dine valg vil automatisk bli kjøpt hver runde eller hver gjenoppliving."
+	}
+
+	"Weapons zmarket auto-rebuy toggle off"
+	{
+		"no"		"Autokjøp er deaktivert."
 	}
 
 	"Weapons zmarket updated loadout"
@@ -683,14 +663,19 @@
 		"no"		"Lagre gjeldende våpenvalg"
 	}
 
-	"Weapons menu zmarket main edit loadout"
+	"Weapons menu zmarket main view loadout"
 	{
-		"no"		"Edit Saved Setup" // TODO: Translate
+		"no"		"Vis våpenvalg"
 	}
 
 	"Weapons menu zmarket main rebuy"
 	{
 		"no"		"Kjøp lagret våpenvalg"
+	}
+
+	"Weapons menu zmarket main auto-rebuy"
+	{
+		"no"		"Autokjøp: {1}"
 	}
 
 	"Weapons menu zmarket main weapons list"
@@ -701,7 +686,6 @@
 	"Weapons menu zmarket loadout title"
 	{
 		"no"		"ZMarket\nGjeldende våpenvalg:\nFjern våpen ved å velge det."
-		//"no"		"ZMarket\nMy Current Setup:\nSelect weapon slot to modify.\nNote: Rebuy refers to these weapons.\nYou will spawn with these weapons." // TODO: Translate
 	}
 
 	"Weapons menu zmarket loadout primary"
@@ -714,15 +698,29 @@
 		"no"		"sekundærvåpen: {1}"
 	}
 
-	"Weapons menu zmarket loadout default"
+	"Weapons menu zmarket loadout melee"
 	{
- 		"#format"	"{1:s}"
-		"no"		"Default ({1})" // TODO: Translate
+		"no"		"Nærkamp: {1}"
 	}
 
-	"Weapons menu zmarket loadout weapons title"
+	"Weapons menu zmarket loadout projectile"
 	{
-		"no"		"ZMarket\nSelect Weapon Loadout:" // TODO: Translate
+		"no"		"Prosjektiler: {1}"
+	}
+
+	"Weapons menu zmarket loadout explosive"
+	{
+		"no"		"Granater: {1}"
+	}
+
+	"Weapons menu zmarket loadout nvgs"
+	{
+		"no"		"Nattsyn: {1}"
+	}
+
+	"Weapons menu zmarket loadout empty"
+	{
+		"no"		"(Ingen)"
 	}
 
 	"Weapons menu zmarket types title"
@@ -970,11 +968,6 @@
 	"ZSpawn command force successful"
 	{
 		"no"		"{1} ble vellykket gjenopplivet."
-	}
-
-	"ZSpawn command force successful public"
-	{
-		"no"		"@lgreen{1}@default has spawned @green{2}@default as a @lgreen{3}@default." // TODO: Translate
 	}
 
 	"ZSpawn command force unsuccessful"
